@@ -59,11 +59,34 @@ body {
     align-items: flex-end;
 } */
 
-/* flex flex-grow flex-shrink flex basic */
+/* flex flex-grow flex-shrink flex basis */
+/* 
+    啥都不寫box(display:flex)裡的item-1跟item-2會有預設的：
+    flex: 0 1 auto;
+*/
 
-.item-1 {}
+.box{
+    display: flex;
+}
 
-.item-2 {}
+/* flex-grow flex-basis */
+
+/* .item-1 {
+    flex: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 500px;
+} */
+
+/* flex-shrink flex-basis */
+.item-1{
+    flex: none;
+    flex-shrink: 1;
+    flex-basis: 1000px;
+}
+.item-2 {
+    flex: none;
+}
 
 .item-3 {}
 
