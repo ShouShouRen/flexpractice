@@ -28,3 +28,42 @@ body {
 }
 
 /* display:grid */
+/* .box {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+} */
+
+/* repeat */
+/* .box{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+} */
+
+/* .box {
+    display: grid;
+    grid-template-columns: repeat(2, 100px 30px);
+    grid-template-rows: repeat(3, 100px);
+} */
+
+/* auto-fill */
+
+/* .box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50px);
+    grid-template-rows: repeat(auto-fill, 50px);
+} */
+
+/* fr */
+/* .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+} */
+
+.box {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
