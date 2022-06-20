@@ -12,6 +12,7 @@ body {
     width: 200px;
     height: 70px;
     box-sizing: border-box;
+    padding: 5px;
     font-size: 20px;
     font-family: sans-serif;
 }
@@ -79,17 +80,99 @@ body {
 } */
 
 /* flex-shrink flex-basis */
-.item-1{
+/* .item-1{
     flex: none;
     flex-shrink: 1;
     flex-basis: 1000px;
 }
 .item-2 {
     flex: none;
+} */
+
+/* flex */
+/* flex: 1 1 0 === flex: 1 */
+
+/* .item-1 {
+    flex: 1 1 500px;
+} */
+
+/* flex縮寫與比例 */
+/* .item-1 {
+    flex: 2 0 300px;
 }
 
-.item-3 {}
+.item-2 {
+    flex: 1 0 300px;
+} */
 
-.item-4 {}
+/* flex-wrap */
 
-.item-5 {}
+/* .box{
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
+} */
+
+/* .item-1{
+    width: 700px;
+}
+
+.item-2{
+    width: 500px;
+} */
+
+/* aligin-content */
+
+/* .box{
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: stretch;
+}
+
+.item-1{
+    width: 500px;
+}
+
+.item-2{
+    width: 500px;
+} */
+
+/* order */
+/* flexible item */
+
+/* .box{
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+.item-1{
+    width: 500px;
+    order: 2;
+}
+.item-2{
+    width: 500px;
+    order: 1;
+} */
+
+/* 垂直置中 */
+.box{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.item-1{
+    width: 100px;
+}
+.item-2{
+    width: 100px;
+}
